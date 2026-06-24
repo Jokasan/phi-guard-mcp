@@ -1,0 +1,12 @@
+{
+  "id": "case_017",
+  "text": "Synthetic data only.\nPatient Name: Chloe Adams\nDOB: 2001-09-30\nMRN: CA-3001\nSSN: 111-22-3333\nAccount: ACCT-2026\nIP: 203.0.113.77\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Chloe Adams" },
+    { "category": "DATE", "text": "2001-09-30" },
+    { "category": "MRN", "text": "CA-3001" },
+    { "category": "SSN", "text": "111-22-3333" },
+    { "category": "ACCOUNT_ID", "text": "ACCT-2026" },
+    { "category": "IP_ADDRESS", "text": "203.0.113.77" }
+  ]
+}

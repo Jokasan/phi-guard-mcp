@@ -1,0 +1,11 @@
+{
+  "id": "case_015",
+  "text": "Synthetic data only.\nPatient: Henry Clark\nAddress: 501 Maple Dr\nPhone: 646-555-0199\nPatient ID: HC-2222\nEmail: henry.clark@example.invalid\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Henry Clark" },
+    { "category": "ADDRESS", "text": "501 Maple Dr" },
+    { "category": "PHONE", "text": "646-555-0199" },
+    { "category": "ACCOUNT_ID", "text": "HC-2222" },
+    { "category": "EMAIL", "text": "henry.clark@example.invalid" }
+  ]
+}

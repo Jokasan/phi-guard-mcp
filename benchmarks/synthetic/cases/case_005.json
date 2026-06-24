@@ -1,0 +1,11 @@
+{
+  "id": "case_005",
+  "text": "Synthetic data only.\nPatient: Noah Kim\nMedical Record Number: MK4412\nPhone: +1 650 555 0133\nEmail: noah.kim@example.invalid\nAddress: 900 Pine Lane\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Noah Kim" },
+    { "category": "MRN", "text": "MK4412" },
+    { "category": "PHONE", "text": "+1 650 555 0133" },
+    { "category": "EMAIL", "text": "noah.kim@example.invalid" },
+    { "category": "ADDRESS", "text": "900 Pine Lane" }
+  ]
+}

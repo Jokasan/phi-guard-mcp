@@ -1,0 +1,11 @@
+{
+  "id": "case_011",
+  "text": "Synthetic data only.\nPatient Name: Elena Rossi\nMRN: ZXCV-1122\nAddress: 12 River Way\nFacility: Central Clinic\nDate: 6/7/2025\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Elena Rossi" },
+    { "category": "MRN", "text": "ZXCV-1122" },
+    { "category": "ADDRESS", "text": "12 River Way" },
+    { "category": "MEDICAL_FACILITY", "text": "Central Clinic" },
+    { "category": "DATE", "text": "6/7/2025" }
+  ]
+}

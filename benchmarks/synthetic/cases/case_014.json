@@ -1,0 +1,10 @@
+{
+  "id": "case_014",
+  "text": "Synthetic data only.\nPhysician: Grace Miller\nDOB: April 2, 1988\nMedical Record: GR-90210\nFacility: Riverbend Hospital\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Grace Miller" },
+    { "category": "DATE", "text": "April 2, 1988" },
+    { "category": "MRN", "text": "GR-90210" },
+    { "category": "MEDICAL_FACILITY", "text": "Riverbend Hospital" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "case_009",
+  "text": "Synthetic data only.\nPatient Name: Aria Brooks\nMRN: AB-1002\nAddress: 42 Lake View Blvd\nFacility: Blue Lake Health System\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Aria Brooks" },
+    { "category": "MRN", "text": "AB-1002" },
+    { "category": "ADDRESS", "text": "42 Lake View Blvd" },
+    { "category": "MEDICAL_FACILITY", "text": "Blue Lake Health System" }
+  ]
+}

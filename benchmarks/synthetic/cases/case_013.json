@@ -1,0 +1,10 @@
+{
+  "id": "case_013",
+  "text": "Synthetic data only.\nName: Priya Shah\nSSN: 987-65-4321\nPolicy: PX-7744\nPortal: https://billing.example.invalid/policy/PX-7744\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Priya Shah" },
+    { "category": "SSN", "text": "987-65-4321" },
+    { "category": "ACCOUNT_ID", "text": "PX-7744" },
+    { "category": "URL", "text": "https://billing.example.invalid/policy/PX-7744" }
+  ]
+}

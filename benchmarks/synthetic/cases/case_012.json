@@ -1,0 +1,11 @@
+{
+  "id": "case_012",
+  "text": "Synthetic data only.\nProvider: Omar Hassan\nPhone: 718 555 0111\nEmail: omar.hassan@example.invalid\nIP: 198.51.100.42\nMember ID: MEM-3344\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Omar Hassan" },
+    { "category": "PHONE", "text": "718 555 0111" },
+    { "category": "EMAIL", "text": "omar.hassan@example.invalid" },
+    { "category": "IP_ADDRESS", "text": "198.51.100.42" },
+    { "category": "ACCOUNT_ID", "text": "MEM-3344" }
+  ]
+}

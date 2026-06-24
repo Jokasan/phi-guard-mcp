@@ -1,0 +1,13 @@
+{
+  "id": "case_003",
+  "text": "Synthetic data only.\nProvider: Liam Patel\nMember ID: MB-9000\nPhone: 212-555-0142\nEmail: liam.patel@example.invalid\nAddress: 77 Oak Road\nFacility: East Harbor Hospital\nVisit Date: January 9, 2024\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Liam Patel" },
+    { "category": "ACCOUNT_ID", "text": "MB-9000" },
+    { "category": "PHONE", "text": "212-555-0142" },
+    { "category": "EMAIL", "text": "liam.patel@example.invalid" },
+    { "category": "ADDRESS", "text": "77 Oak Road" },
+    { "category": "MEDICAL_FACILITY", "text": "East Harbor Hospital" },
+    { "category": "DATE", "text": "January 9, 2024" }
+  ]
+}

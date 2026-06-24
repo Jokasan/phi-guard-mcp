@@ -1,0 +1,9 @@
+{
+  "id": "case_010",
+  "text": "Synthetic data only.\nAcct: A-100-200\nPhone: 303.555.0188\nEmail: billing.team@example.invalid\n",
+  "expected_findings": [
+    { "category": "ACCOUNT_ID", "text": "A-100-200" },
+    { "category": "PHONE", "text": "303.555.0188" },
+    { "category": "EMAIL", "text": "billing.team@example.invalid" }
+  ]
+}

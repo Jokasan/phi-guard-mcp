@@ -1,0 +1,28 @@
+[gate]
+include = [
+  "README.md",
+  "docs/**/*.md",
+  "src/**/*.py",
+  "pyproject.toml",
+]
+exclude = [
+  ".git/**",
+  ".venv/**",
+  "dist/**",
+  "build/**",
+  "examples/**",
+  "tests/**",
+  "benchmarks/**",
+  "__pycache__/**",
+]
+allow_text = [
+  "https://developers.openai.com/community/codex-for-oss",
+  "https://developers.openai.com/codex/codex-for-oss-terms",
+  "https://github.com/dcl632/phi-guard-mcp",
+  "https://github.com/dcl632/phi-guard-mcp/issues",
+  "https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html",
+  "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software",
+  "https://www.fda.gov/medical-devices/digital-health-center-excellence/device-software-functions-including-mobile-medical-applications",
+  "Jordan Rivera",
+  "MRN-48291",
+]

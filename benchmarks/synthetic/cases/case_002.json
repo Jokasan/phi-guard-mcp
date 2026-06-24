@@ -1,0 +1,11 @@
+{
+  "id": "case_002",
+  "text": "Synthetic data only.\nPhysician: Maya Chen\nVisit Date: 03/05/2025\nAccount: ACCT-4401\nFacility: Cedar Clinic\nWorkstation IP: 203.0.113.10\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Maya Chen" },
+    { "category": "DATE", "text": "03/05/2025" },
+    { "category": "ACCOUNT_ID", "text": "ACCT-4401" },
+    { "category": "MEDICAL_FACILITY", "text": "Cedar Clinic" },
+    { "category": "IP_ADDRESS", "text": "203.0.113.10" }
+  ]
+}

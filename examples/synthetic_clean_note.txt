@@ -1,0 +1,6 @@
+# Synthetic clean note
+
+This file contains synthetic data only. It is not a real patient record.
+
+The patient reports improved sleep and normal activity tolerance. No direct identifiers are present
+in this sample text.

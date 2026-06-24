@@ -1,0 +1,11 @@
+{
+  "id": "case_019",
+  "text": "Synthetic data only.\nPatient Name: Marcus Lee\nMember ID: MEM-8800\nPolicy: POL-2026-A\nEmail: marcus.lee@example.invalid\nDate: 2025-08-17\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Marcus Lee" },
+    { "category": "ACCOUNT_ID", "text": "MEM-8800" },
+    { "category": "ACCOUNT_ID", "text": "POL-2026-A" },
+    { "category": "EMAIL", "text": "marcus.lee@example.invalid" },
+    { "category": "DATE", "text": "2025-08-17" }
+  ]
+}

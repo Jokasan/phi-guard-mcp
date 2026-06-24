@@ -1,0 +1,11 @@
+{
+  "id": "case_004",
+  "text": "Synthetic data only.\nName: Sofia Nguyen\nRecord No. R-55220\nPolicy: PL-778899\nPortal: https://records.example.invalid/view/R-55220\nDischarge Date: 2026-02-18\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Sofia Nguyen" },
+    { "category": "MRN", "text": "R-55220" },
+    { "category": "ACCOUNT_ID", "text": "PL-778899" },
+    { "category": "URL", "text": "https://records.example.invalid/view/R-55220" },
+    { "category": "DATE", "text": "2026-02-18" }
+  ]
+}

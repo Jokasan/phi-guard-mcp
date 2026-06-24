@@ -1,0 +1,17 @@
+# Synthetic clinical note
+
+This file contains synthetic data only. It is not a real patient record.
+
+Patient Name: Jordan Rivera
+DOB: 1980-04-12
+MRN: MRN-48291
+SSN: 123-45-6789
+Phone: (415) 555-0198
+Email: jordan.rivera@example.invalid
+Address: 1200 Market Street
+Facility: North Valley Medical Center
+Patient ID: PT-7788-XY
+Portal: https://portal.example.invalid/patient/PT-7788-XY
+
+Reason for visit: Synthetic follow-up note for privacy tooling tests.
+Assessment: No real diagnosis is provided in this sample.

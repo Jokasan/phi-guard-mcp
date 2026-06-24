@@ -1,0 +1,11 @@
+{
+  "id": "case_007",
+  "text": "Synthetic data only.\nPatient Name: Isla Morgan\nDOB: 1975/11/23\nVisit Date: March 14, 2026\nFacility: West Point Urgent Care\nPatient ID: ISLA-7788\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Isla Morgan" },
+    { "category": "DATE", "text": "1975/11/23" },
+    { "category": "DATE", "text": "March 14, 2026" },
+    { "category": "MEDICAL_FACILITY", "text": "West Point Urgent Care" },
+    { "category": "ACCOUNT_ID", "text": "ISLA-7788" }
+  ]
+}

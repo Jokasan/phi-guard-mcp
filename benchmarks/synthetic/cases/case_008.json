@@ -1,0 +1,10 @@
+{
+  "id": "case_008",
+  "text": "Synthetic data only.\nEmail: sample.caregiver@example.invalid\nSSN: 222-33-4444\nPortal: https://care.example.invalid/session/ALPHA\nDevice IP: 198.51.100.23\n",
+  "expected_findings": [
+    { "category": "EMAIL", "text": "sample.caregiver@example.invalid" },
+    { "category": "SSN", "text": "222-33-4444" },
+    { "category": "URL", "text": "https://care.example.invalid/session/ALPHA" },
+    { "category": "IP_ADDRESS", "text": "198.51.100.23" }
+  ]
+}

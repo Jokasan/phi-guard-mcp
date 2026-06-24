@@ -1,0 +1,10 @@
+{
+  "id": "case_018",
+  "text": "Synthetic data only.\nFacility: Harbor Clinic\nAddress: 88 North Road\nPhone: (206) 555-0181\nDate: 12/31/2025\n",
+  "expected_findings": [
+    { "category": "MEDICAL_FACILITY", "text": "Harbor Clinic" },
+    { "category": "ADDRESS", "text": "88 North Road" },
+    { "category": "PHONE", "text": "(206) 555-0181" },
+    { "category": "DATE", "text": "12/31/2025" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "case_020",
+  "text": "Synthetic data only.\nPatient: Nina Park\nProvider: Victor Stone\nMRN: NP-7070\nAddress: 300 Sunset Ave\nPortal: https://portal.example.invalid/notes/NP-7070\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Nina Park" },
+    { "category": "NAME", "text": "Victor Stone" },
+    { "category": "MRN", "text": "NP-7070" },
+    { "category": "ADDRESS", "text": "300 Sunset Ave" },
+    { "category": "URL", "text": "https://portal.example.invalid/notes/NP-7070" }
+  ]
+}

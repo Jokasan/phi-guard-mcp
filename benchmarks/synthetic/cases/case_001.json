@@ -1,0 +1,16 @@
+{
+  "id": "case_001",
+  "text": "Synthetic data only.\nPatient Name: Jordan Rivera\nDOB: 1980-04-12\nMRN: MRN-48291\nSSN: 123-45-6789\nPhone: (415) 555-0198\nEmail: jordan.rivera@example.invalid\nAddress: 1200 Market Street\nFacility: North Valley Medical Center\nPatient ID: PT-7788-XY\nPortal: https://portal.example.invalid/patient/PT-7788-XY\n",
+  "expected_findings": [
+    { "category": "NAME", "text": "Jordan Rivera" },
+    { "category": "DATE", "text": "1980-04-12" },
+    { "category": "MRN", "text": "MRN-48291" },
+    { "category": "SSN", "text": "123-45-6789" },
+    { "category": "PHONE", "text": "(415) 555-0198" },
+    { "category": "EMAIL", "text": "jordan.rivera@example.invalid" },
+    { "category": "ADDRESS", "text": "1200 Market Street" },
+    { "category": "MEDICAL_FACILITY", "text": "North Valley Medical Center" },
+    { "category": "ACCOUNT_ID", "text": "PT-7788-XY" },
+    { "category": "URL", "text": "https://portal.example.invalid/patient/PT-7788-XY" }
+  ]
+}
