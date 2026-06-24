@@ -29,4 +29,4 @@ __all__ = [
     "validate_no_phi",
 ]
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"

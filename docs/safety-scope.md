@@ -19,7 +19,7 @@ structured audit data before text is sent to an AI agent.
 - Claims of HIPAA compliance, regulatory certification, or legal sufficiency.
 - Expert Determination services.
 - PDF parsing, OCR, DICOM, FHIR ingestion, or EHR integration.
-- External API calls or LLM-based PHI judgment in the v0.1.0 core.
+- External API calls or LLM-based PHI judgment in the v0.1.x core.
 
 ## Regulatory Boundary
 

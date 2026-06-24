@@ -1,6 +1,13 @@
 # phi-guard-mcp
 
-MCP server and CLI for detecting, redacting, and auditing PHI before medical text is sent to AI agents.
+[![CI](https://github.com/dcl632/phi-guard-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/dcl632/phi-guard-mcp/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/phi-guard-mcp.svg)](https://pypi.org/project/phi-guard-mcp/)
+[![Python](https://img.shields.io/pypi/pyversions/phi-guard-mcp.svg)](https://pypi.org/project/phi-guard-mcp/)
+[![Release](https://img.shields.io/github/v/release/dcl632/phi-guard-mcp.svg)](https://github.com/dcl632/phi-guard-mcp/releases)
+[![License](https://img.shields.io/github/license/dcl632/phi-guard-mcp.svg)](LICENSE)
+
+MCP server and CLI for detecting, redacting, and auditing PHI before medical text is sent to AI
+agents.
 
 `phi-guard-mcp` is healthcare AI safety infrastructure, not a clinical product. It is a local,
 rule-based guardrail that helps developers identify PHI-like identifiers in plain text, redact them
@@ -12,6 +19,7 @@ Proof points for maintainers:
 - Synthetic benchmark with exact-match PHI finding evaluation.
 - Safe Harbor mapping audit fields for review workflows.
 - CI privacy gate that blocks PHI-like identifiers in maintained source and docs.
+- CLI, Python API, and MCP stdio tools sharing one stable JSON result model.
 
 Important scope limits:
 
@@ -28,13 +36,17 @@ and [FDA device software functions](https://www.fda.gov/medical-devices/digital-
 
 ## Install
 
-From a local checkout:
+```bash
+python -m pip install phi-guard-mcp
+```
+
+For local development:
 
 ```bash
 python -m pip install -e ".[dev]"
 ```
 
-## CLI
+## Quickstart
 
 Scan a synthetic note:
 
@@ -74,6 +86,8 @@ phi-guard gate --config .phi-guard.toml
 
 All CLI commands output stable JSON for automation.
 
+See [docs/demo.md](docs/demo.md) for a complete CLI and MCP transcript.
+
 ## MCP Server
 
 Run the stdio MCP server:
@@ -90,6 +104,18 @@ Available tools:
 - `validate_no_phi(text)`
 
 MCP tools return the same finding schema as the CLI, including `safe_harbor_identifier`.
+
+Example MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "phi-guard": {
+      "command": "phi-guard-mcp"
+    }
+  }
+}
+```
 
 ## Python API
 
@@ -123,6 +149,16 @@ opaque model judgment.
 
 Safe Harbor mapping is included as a review aid only. It does not make output HIPAA compliant and
 does not replace Expert Determination or legal review.
+
+## Project Docs
+
+- [Demo](docs/demo.md)
+- [Synthetic benchmark](docs/benchmark.md)
+- [Privacy gate](docs/privacy-gate.md)
+- [Safety scope](docs/safety-scope.md)
+- [Roadmap](docs/roadmap.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
 
 ## Development
 

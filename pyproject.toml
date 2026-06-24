@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "phi-guard-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server and CLI for detecting, redacting, and auditing PHI before medical text is sent to AI agents."
 readme = "README.md"
 requires-python = ">=3.12"

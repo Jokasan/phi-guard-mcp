@@ -16,7 +16,7 @@ def test_help(capsys: pytest.CaptureFixture[str]) -> None:
 
 def test_version(capsys: pytest.CaptureFixture[str]) -> None:
     assert main(["--version"]) == 0
-    assert "phi-guard 0.1.0" in capsys.readouterr().out
+    assert "phi-guard 0.1.1" in capsys.readouterr().out
 
 
 def test_scan_outputs_json(tmp_path: Path, capsys: pytest.CaptureFixture[str]) -> None:

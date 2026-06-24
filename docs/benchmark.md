@@ -19,5 +19,25 @@ The report includes precision, recall, F1, true positives, false positives, fals
 per-category metrics. Matching is intentionally strict: a finding is correct only when both category
 and exact text match the expected fixture.
 
-The benchmark is not a clinical validation study. It is a maintainer workflow for repeatable
-regression checks on synthetic data.
+## Current Report
+
+The checked-in synthetic report is generated from 20 synthetic cases:
+
+- Precision: 1.0
+- Recall: 1.0
+- F1: 1.0
+
+These numbers are expected for the current fixture set because the benchmark is a regression suite
+for known synthetic examples. They should not be read as clinical validation, real-world recall, or
+proof that PHI has been fully removed from arbitrary medical text.
+
+## Limitations
+
+- All cases are synthetic and rule-oriented.
+- The benchmark does not measure performance on real patient records.
+- The benchmark does not prove HIPAA compliance, Expert Determination, or legal sufficiency.
+- False positives and false negatives should be reviewed through public issues using synthetic
+  examples only.
+
+The roadmap tracks expansion into harder synthetic edge cases, detector-level reporting, and a
+documented review workflow for false-positive and false-negative reports.

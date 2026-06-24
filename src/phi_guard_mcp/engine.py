@@ -161,7 +161,7 @@ def redact_text(text: str, mode: RedactionMode = "placeholder") -> RedactionResu
     """Redact detected PHI-like identifiers with stable placeholders."""
 
     if mode != "placeholder":
-        raise ValueError("Only placeholder redaction is supported in v0.1.0.")
+        raise ValueError("Only placeholder redaction is supported in the current release.")
 
     scan = scan_text(text)
     redacted = text
