@@ -1,10 +1,10 @@
 # phi-guard-mcp
 
-[![CI](https://github.com/dcl632/phi-guard-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/dcl632/phi-guard-mcp/actions/workflows/ci.yml)
+[![CI](https://github.com/charlesree826/phi-guard-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/charlesree826/phi-guard-mcp/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/phi-guard-mcp.svg)](https://pypi.org/project/phi-guard-mcp/)
 [![Python](https://img.shields.io/pypi/pyversions/phi-guard-mcp.svg)](https://pypi.org/project/phi-guard-mcp/)
-[![Release](https://img.shields.io/github/v/release/dcl632/phi-guard-mcp.svg)](https://github.com/dcl632/phi-guard-mcp/releases)
-[![License](https://img.shields.io/github/license/dcl632/phi-guard-mcp.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/charlesree826/phi-guard-mcp.svg)](https://github.com/charlesree826/phi-guard-mcp/releases)
+[![License](https://img.shields.io/github/license/charlesree826/phi-guard-mcp.svg)](LICENSE)
 
 MCP server and CLI for detecting, redacting, and auditing PHI before medical text is sent to AI
 agents.

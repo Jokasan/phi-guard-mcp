@@ -14,7 +14,7 @@ It detects PHI-like identifiers, redacts them with stable placeholders, returns 
 and includes a synthetic benchmark plus CI privacy gate. It is local and rule-based, uses synthetic
 examples only, and is explicitly not a diagnosis, treatment, triage, or HIPAA compliance tool.
 
-Repo: https://github.com/dcl632/phi-guard-mcp
+Repo: https://github.com/charlesree826/phi-guard-mcp
 
 ## MCP Directory Draft
 
@@ -41,4 +41,4 @@ It includes:
 - Synthetic benchmark
 - CI privacy gate for source and docs
 
-Repo: https://github.com/dcl632/phi-guard-mcp
+Repo: https://github.com/charlesree826/phi-guard-mcp

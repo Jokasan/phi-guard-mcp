@@ -38,9 +38,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/dcl632/phi-guard-mcp"
-Repository = "https://github.com/dcl632/phi-guard-mcp"
-Issues = "https://github.com/dcl632/phi-guard-mcp/issues"
+Homepage = "https://github.com/charlesree826/phi-guard-mcp"
+Repository = "https://github.com/charlesree826/phi-guard-mcp"
+Issues = "https://github.com/charlesree826/phi-guard-mcp/issues"
 
 [project.scripts]
 phi-guard = "phi_guard_mcp.cli:main"

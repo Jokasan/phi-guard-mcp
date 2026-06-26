@@ -10,8 +10,8 @@ Official references:
 
 ## Project
 
-- GitHub username: `dcl632`
-- Repository URL: `https://github.com/dcl632/phi-guard-mcp`
+- GitHub username: `charlesree826`
+- Repository URL: `https://github.com/charlesree826/phi-guard-mcp`
 - PyPI package: `https://pypi.org/project/phi-guard-mcp/`
 - Role: primary maintainer and original AI-assisted implementation owner
 - License: MIT
