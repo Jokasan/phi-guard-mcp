@@ -152,6 +152,7 @@ does not replace Expert Determination or legal review.
 
 ## Project Docs
 
+- [MCP client setup](docs/mcp-clients.md)
 - [Demo](docs/demo.md)
 - [Synthetic benchmark](docs/benchmark.md)
 - [Privacy gate](docs/privacy-gate.md)

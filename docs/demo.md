@@ -66,7 +66,9 @@ Audit output includes category counts, Safe Harbor review-aid mapping, and expli
 
 ## MCP Client Config
 
-Install the package and point an MCP-compatible client at the stdio command:
+See [mcp-clients.md](mcp-clients.md) for the full setup guide, including per-client config file locations and annotated `scan_phi` / `redact_phi` examples.
+
+Quick reference — minimal stdio config:
 
 ```json
 {
@@ -84,22 +86,5 @@ The server exposes:
 - `redact_phi(text, mode="placeholder")`
 - `audit_deidentification(text)`
 - `validate_no_phi(text)`
-
-Example tool input:
-
-```json
-{
-  "text": "Patient Name: Jordan Rivera, MRN: MRN-48291"
-}
-```
-
-Example `validate_no_phi` result:
-
-```json
-{
-  "ok": false,
-  "finding_count": 2
-}
-```
 
 The MCP tools return the same structured finding fields as the CLI.
